@@ -2,6 +2,8 @@
 _Submission to HackGwinnett 2022, won Special Honor_
 
 **An Exploration of the Infinite**
+![image](https://github.com/user-attachments/assets/98dfa951-d155-4061-b0da-aacddb994cc4)
+
 
 **The Boundless Sea** is a heartfelt project inspired by the wonders of the ocean and our deep desire to share and protect the stories of our shining waters. Recognized with a Special Honor at HackGwinnett 2022, this project aims to raise awareness about the pressing issue of trash in our oceans.
 
