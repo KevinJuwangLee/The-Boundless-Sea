@@ -1,0 +1,157 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    min-height: 2500vh;
+    background-color: rgb(130, 201, 232);
+    animation: body 1s linear;
+  }
+  
+  @keyframes body {
+    to {
+      background-color: rgb(19, 48, 97);
+    }
+  }
+  
+  /*img{float:left;}
+  .fish1{
+    left: 80px;
+    top:50px;
+    position:relative;
+  }*/
+  
+  
+  .intro-text{
+    text-align: center;
+    position: fixed;
+    top: 200px;
+    /*left: 400px;*/
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .main-text{
+    font-size: 55px;
+    font-weight: bold;
+  }
+  
+  .secondary-text{
+    font-size: 35px;
+  }
+  
+  .description{
+    position:relative;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    font-size:20px;
+  }
+  
+  .flicker {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 1px #fff, 0 0 11px #fff, 0 0 21px #d1d3f5, 0 0 31px #d1d3f5, 0 0 41px #d1d3f5, 0 0 51px #d1d3f5, 0 0 61px #d1d3f5;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #564afc, 0 0 40px #564afc, 0 0 50px #564afc, 0 0 60px #564afc, 0 0 70px #564afc, 0 0 80px #564afc;
+    }
+  }
+  
+  .fish-1{
+    position:absolute;
+    width:180px;
+    height:180px;
+    right:200px;
+    top:400px;
+    transform: rotate(300deg);
+  }
+  
+  .fish-2{
+    width:180px;
+    height:180px;
+  }
+  
+  .blue-whale{
+    right:100px;
+    height: 400px;
+    width:400px;
+    top:1300px;
+    position:absolute;
+  }
+  
+  .submarine-1{
+    top:2300px;
+    left:250px;
+    position:absolute;
+  }
+  .diver{
+    top:3700px;
+    left:20px;
+    position:absolute;
+  }
+  .whale{
+    top:4600px;
+    left:450px;
+    position:absolute;
+  }
+  .shrimp{
+    width:300px;
+    height:300px;
+    left:850px;
+    top: 5900px;
+    position:absolute;
+  }
+  .ship{
+    left:300px;
+    top:6600px;
+    position:absolute;
+  }
+  
+  
+  
+  
+  
+  
+  
+  :root * {
+    /* Pause the animation */
+    animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;  
+    font-family: Poppins;
+    color: rgb(255, 255, 255);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+  }
+  
+  .flip-horizontally {
+    transform: scaleX(-1);
+  }
